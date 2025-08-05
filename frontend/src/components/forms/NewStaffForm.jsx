@@ -69,7 +69,7 @@ function NewStaffForm({ setShowNewForm }) {
     };
 
     try {
-      const res = await axios.post('http://localhost:5000/api/staff', dataToSend);
+      const res = await axios.post('https://zero4-hospital-staff-database-4.onrender.com/api/staff', dataToSend);
       alert('Staff member added!');
       setShowNewForm(false);
     } catch (err) {

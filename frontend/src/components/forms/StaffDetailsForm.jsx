@@ -65,7 +65,7 @@ function StaffDetailForm({ staffData, setShowEditForm, onSave }) {
         photo 
       };
 
-      const res = await axios.put(`http://localhost:5000/api/staff/${staffData.staffId}`, updatedStaff);
+      const res = await axios.put(`https://zero4-hospital-staff-database-4.onrender.com/api/staff/${staffData.staffId}`, updatedStaff);
       console.log("Updated Successfully:", res.data);
       alert("Staff details updated successfully!");
       setIsEdit(false);

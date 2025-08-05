@@ -4,8 +4,8 @@ function Navbar() {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    localStorage.clear(); // ✅ clear PASSKEY and other data
-    navigate("/");        // ✅ redirect to login page
+    localStorage.clear(); 
+    navigate("/");        
   };
 
   return (

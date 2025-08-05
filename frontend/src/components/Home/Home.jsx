@@ -29,7 +29,7 @@ function Home() {
   useEffect(() => {
     const fetchStaff = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/staff",{
+        const res = await axios.get("https://zero4-hospital-staff-database-4.onrender.com/api/staff",{
           headers:{
             "x-api-key" : localStorage.getItem("PASSKEY"),
           }
