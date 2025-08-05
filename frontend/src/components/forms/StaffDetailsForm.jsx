@@ -14,7 +14,7 @@ const departmentMap = {
   Driver: ["Transport"],
   Security: ["Security"],
   Physiotherapist: ["Rehab"],
-  Dietitian: ["Nutrition"],
+  Dietitian: ["Nutrition"], 
   HR: ["Human Resources"],
   "IT Support": ["IT"],
   Maintenance: ["Maintenance"]

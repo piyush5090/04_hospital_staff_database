@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import StaffCard from '../cards/StaffCard';
-import NewStaffForm from '../forms/newStaffForm';
+import NewStaffForm from '../forms/NewStaffForm';
 import StaffDetailForm from '../forms/StaffDetailsForm';
 import axios from 'axios';
 
